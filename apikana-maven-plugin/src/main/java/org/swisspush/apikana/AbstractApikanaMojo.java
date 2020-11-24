@@ -167,7 +167,7 @@ public abstract class AbstractApikanaMojo extends AbstractMojo {
             plugins.add("maven");
             plugins.add("readme");
             customConfig.put("plugins", plugins);
-            pack.put("chusomConfig", customConfig);
+            pack.put("customConfig", customConfig);
             devDependencies.put("apikana", version);
             devDependencies.put("apikana-defaults", "0.0.0");
         });
